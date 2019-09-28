@@ -6,9 +6,11 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:@typescript-eslint/recommended',
+    'plugin:import/typescript',
     'plugin:prettier/recommended'
   ],
   rules: {
-    'no-console': 'off'
+    'no-console': 'off',
+    'import/prefer-default-export': 'off'
   }
 };
